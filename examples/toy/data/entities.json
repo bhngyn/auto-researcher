@@ -1,0 +1,68 @@
+{
+ "entities": [
+  {
+   "slug": "ridgeline-chemical",
+   "name": "Ridgeline Chemical",
+   "type": "org",
+   "group": "Ridgeline Chemical",
+   "role": "Operator of the Millbrook plant",
+   "summary": "Ridgeline Chemical operates the Millbrook plant on the Upper Basin. The Valley Courier reported that a tank at the plant released solvent into the river.{{c:r1-upper-basin-001}} The company said the release was a fraction of the volume alleged.{{c:r1-upper-basin-003}}",
+   "identifiers": [
+    {
+     "field": "Site",
+     "value": "Millbrook plant",
+     "claims": [
+      "r1-upper-basin-001"
+     ]
+    }
+   ],
+   "bio": [],
+   "timeline": [
+    {
+     "date": "2024-03-03",
+     "text": "Reported solvent release",
+     "claims": [
+      "r1-upper-basin-001"
+     ]
+    },
+    {
+     "date": "2025-02-10",
+     "text": "Compliance order issued by the Authority",
+     "claims": [
+      "r2-permit-001"
+     ]
+    }
+   ],
+   "flags": [],
+   "namesake_risk": ""
+  },
+  {
+   "slug": "foo-valley-municipal-utility",
+   "name": "Foo Valley Municipal Utility",
+   "type": "org",
+   "group": "Foo Valley Municipal Utility",
+   "role": "Operator of the Lower Basin treatment works",
+   "summary": "The utility confirmed a chlorine overdose at the Lower Basin treatment works.{{c:r1-lower-basin-001}} It also issued a boil notice after a main burst in Eastfield.{{c:r2-mainburst-001}}",
+   "identifiers": [],
+   "bio": [],
+   "timeline": [
+    {
+     "date": "2024-11-20",
+     "text": "Main burst in Eastfield",
+     "claims": [
+      "r2-mainburst-001"
+     ]
+    },
+    {
+     "date": "2025-07-14",
+     "text": "Chlorine overdose",
+     "claims": [
+      "r1-lower-basin-001"
+     ]
+    }
+   ],
+   "flags": [],
+   "namesake_risk": ""
+  }
+ ]
+}

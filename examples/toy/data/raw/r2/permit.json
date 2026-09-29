@@ -1,0 +1,47 @@
+{
+ "unit": "permit",
+ "searches": [
+  {
+   "q": "Millbrook outfall permit",
+   "lang": "en",
+   "useful": true
+  }
+ ],
+ "claims": [
+  {
+   "relation": "new",
+   "category": "spill",
+   "statement": "The Regional Water Authority reported that sampling on 10 February 2025 found solvent discharged from the Millbrook outfall exceeded the permitted limit by a factor of two, and that it issued a compliance order to Ridgeline Chemical.",
+   "date": "2025-02-10",
+   "location": "Millbrook outfall, Upper Basin",
+   "actor": "Ridgeline Chemical",
+   "figures": "Authority: twice the permitted limit",
+   "entities_named": [
+    "Ridgeline Chemical"
+   ],
+   "sources": [
+    {
+     "publisher": "Regional Water Authority",
+     "title": "Compliance bulletin, February 2025",
+     "date": "2025-02-14",
+     "url": "fixture://authority-permit.html",
+     "language": "en",
+     "source_type": "official",
+     "supporting_excerpt": "Sampling on 10 February 2025 found that solvent discharged from the Millbrook outfall exceeded the permitted limit by a factor of two, and the Authority issued a compliance order to Ridgeline Chemical."
+    },
+    {
+     "publisher": "Valley Courier",
+     "title": "Authority orders plant to cut discharge",
+     "date": "2025-02-15",
+     "url": "fixture://valley-courier-permit.html",
+     "language": "en",
+     "source_type": "media",
+     "supporting_excerpt": "The Valley Courier reported that, according to the Authority, solvent discharged from the Millbrook outfall exceeded the permitted limit in February 2025."
+    }
+   ],
+   "proposed_grade": "A",
+   "notes": "The Courier relays the Authority."
+  }
+ ],
+ "gaps": []
+}

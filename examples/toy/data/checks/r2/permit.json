@@ -1,0 +1,19 @@
+{
+ "unit": "permit",
+ "quotes": [
+  {
+   "claim": 0,
+   "source": 0,
+   "url": "fixture://authority-permit.html",
+   "status": "exact"
+  },
+  {
+   "claim": 0,
+   "source": 1,
+   "url": "fixture://valley-courier-permit.html",
+   "status": "exact"
+  }
+ ],
+ "flags": [],
+ "errors": []
+}

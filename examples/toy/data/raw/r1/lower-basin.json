@@ -1,0 +1,104 @@
+{
+ "unit": "lower-basin",
+ "searches": [
+  {
+   "q": "Lower Basin chlorine July 2025",
+   "lang": "en",
+   "useful": true
+  }
+ ],
+ "claims": [
+  {
+   "relation": "new",
+   "category": "spill",
+   "statement": "The Foo Valley Municipal Utility confirmed that on 14 July 2025 the Lower Basin treatment works dosed chlorine at four times the permitted level for roughly three hours.",
+   "date": "2025-07-14",
+   "location": "Lower Basin treatment works",
+   "actor": "Foo Valley Municipal Utility",
+   "figures": "Utility: 4x permitted level, about 3 hours",
+   "entities_named": [
+    "Foo Valley Municipal Utility"
+   ],
+   "sources": [
+    {
+     "publisher": "Foo Valley Municipal Utility",
+     "title": "Incident report: treatment works, July 2025",
+     "date": "2025-07-20",
+     "url": "fixture://lower-basin-utility.html",
+     "language": "en",
+     "source_type": "official",
+     "supporting_excerpt": "On 14 July 2025 the Lower Basin treatment works dosed chlorine at four times the permitted level for roughly three hours, the utility confirmed."
+    }
+   ],
+   "proposed_grade": "B",
+   "notes": "Self-report by the operator."
+  },
+  {
+   "relation": "new",
+   "category": "health_impact",
+   "statement": "The Regional Health Office recorded 48 cases of skin irritation at Riverside Clinic between 14 and 17 July 2025.",
+   "date": "2025-07-14/2025-07-17",
+   "location": "Riverside Clinic, Eastfield, Lower Basin",
+   "actor": "",
+   "figures": "Regional Health Office: 48 cases",
+   "sources": [
+    {
+     "publisher": "Regional Health Office",
+     "title": "Skin irritation cluster, Eastfield",
+     "date": "2025-07-21",
+     "url": "fixture://health-office-cluster.html",
+     "language": "en",
+     "source_type": "official",
+     "supporting_excerpt": "The Regional Health Office recorded 48 cases of skin irritation at Riverside Clinic between 14 and 17 July 2025."
+    }
+   ],
+   "proposed_grade": "B",
+   "notes": "The office does not link the cluster to the dosing incident."
+  },
+  {
+   "relation": "new",
+   "category": "spill",
+   "statement": "An anonymous forum user wrote that trucks dump drums into the river every Friday night near Millbrook.",
+   "date": "2025",
+   "location": "Near Millbrook, Upper Basin",
+   "actor": "",
+   "figures": "",
+   "sources": [
+    {
+     "publisher": "Basin Talk forum",
+     "title": "Night dumping?",
+     "date": "2025-08-02",
+     "url": "fixture://forum-rumour.html",
+     "language": "en",
+     "source_type": "OSINT",
+     "supporting_excerpt": "A user who did not give a name wrote that trucks dump drums into the river every Friday night near Millbrook."
+    }
+   ],
+   "proposed_grade": "C",
+   "notes": "Anonymous, unverified."
+  },
+  {
+   "relation": "new",
+   "category": "health_impact",
+   "statement": "The Regional Health Office said 300 people were hospitalised in Eastfield in July 2025.",
+   "date": "2025-07",
+   "location": "Eastfield, Lower Basin",
+   "actor": "",
+   "figures": "Regional Health Office: 300 hospitalised",
+   "sources": [
+    {
+     "publisher": "Regional Health Office",
+     "title": "Skin irritation cluster, Eastfield",
+     "date": "2025-07-21",
+     "url": "fixture://health-office-cluster.html",
+     "language": "en",
+     "source_type": "official",
+     "supporting_excerpt": "The Regional Health Office said 300 people were hospitalised in Eastfield in July 2025."
+    }
+   ],
+   "proposed_grade": "B",
+   "notes": "(A deliberately bad claim: the excerpt is not on the page.)"
+  }
+ ],
+ "gaps": []
+}

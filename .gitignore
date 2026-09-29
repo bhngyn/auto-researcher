@@ -1,0 +1,9 @@
+# Research data can be sensitive and large: investigations stay local.
+investigations/*
+!investigations/.gitkeep
+# build products and backups, everywhere
+**/build/
+**/data/backups/
+**/__pycache__/
+*.pyc
+.DS_Store

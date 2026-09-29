@@ -1,0 +1,19 @@
+{
+ "unit": "mainburst",
+ "quotes": [
+  {
+   "claim": 0,
+   "source": 0,
+   "url": "fixture://utility-mainburst.html",
+   "status": "exact"
+  },
+  {
+   "claim": 0,
+   "source": 1,
+   "url": "fixture://lower-basin-inquirer.html",
+   "status": "exact"
+  }
+ ],
+ "flags": [],
+ "errors": []
+}

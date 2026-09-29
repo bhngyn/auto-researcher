@@ -1,0 +1,25 @@
+{
+ "unit": "upper-basin",
+ "claims": {
+  "0": {
+   "verdict": "keep",
+   "grade": "A",
+   "independent_of_existing": true,
+   "reason": "Courier and the Authority are independent origins; the Authority confirms readings, not the volume (noted).",
+   "note": "The Authority confirms elevated readings and a boil notice; the volume comes from the Courier only."
+  },
+  "1": {
+   "verdict": "correct",
+   "grade": "B",
+   "reason": "The Courier relays Basin Watch, so one origin, not two.",
+   "originating_source": {
+    "1": "Basin Watch"
+   }
+  },
+  "2": {
+   "verdict": "keep",
+   "grade": "C",
+   "reason": "Party statement; recorded as a claim by the party."
+  }
+ }
+}

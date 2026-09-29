@@ -1,0 +1,35 @@
+{
+  "_comment": "Generic outlet canon. A project's <project>/config/publishers.json is consulted FIRST and may add or override. Each list is ordered; first match wins; patterns run case-insensitively on the publisher string (excerpt_origin on the excerpt/title).",
+  "canon": [
+    ["^reuters", "Reuters"],
+    ["^associated press|^ap news|^ap\\b", "AP"],
+    ["^agence france|^afp", "AFP"],
+    ["^bbc", "BBC"],
+    ["al jazeera", "Al Jazeera"],
+    ["human rights watch", "Human Rights Watch"],
+    ["amnesty", "Amnesty International"],
+    ["^msf|m[eé]decins sans fronti", "MSF"],
+    ["^acled", "ACLED"],
+    ["ohchr|un human rights", "OHCHR"],
+    ["^un ocha|^ocha", "OCHA"],
+    ["^unicef", "UNICEF"],
+    ["^who\\b|world health organi[sz]ation", "WHO"],
+    ["^un news", "UN News"],
+    ["treasury", "US Treasury (OFAC)"],
+    ["save the children", "Save the Children"]
+  ],
+  "publisher_origin": [
+    ["\\(afp\\)|translation of afp", "AFP"],
+    ["\\(reuters\\)|citing reuters|reprinting reuters", "Reuters"],
+    ["\\(ap\\)|associated press|reproducing ap", "AP"]
+  ],
+  "excerpt_origin": [
+    ["\\bReuters\\b", "Reuters"],
+    ["\\bAFP\\b", "AFP"],
+    ["associated press", "AP"],
+    ["\\bOCHA\\b", "OCHA"],
+    ["\\bUNICEF\\b", "UNICEF"],
+    ["\\bACLED\\b", "ACLED"]
+  ],
+  "party_publishers": []
+}

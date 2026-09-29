@@ -1,0 +1,98 @@
+{
+ "track": "r2",
+ "claims": [
+  {
+   "category": "spill",
+   "statement": "The Foo Valley Municipal Utility said a water main burst in Eastfield on 20 November 2024 and that it issued a boil notice for 3,400 customers until 23 November 2024.",
+   "date": "2024-11-20",
+   "location": "Eastfield, Lower Basin",
+   "actor": "Foo Valley Municipal Utility",
+   "figures": "Utility: 3,400 customers",
+   "entities_named": [
+    "Foo Valley Municipal Utility"
+   ],
+   "notes": "The Inquirer reports independently on the event; it gives no figure.",
+   "relation": "new",
+   "id": "r2-mainburst-001",
+   "sources": [
+    {
+     "publisher": "Foo Valley Municipal Utility",
+     "title": "Service notice: main burst, Eastfield",
+     "date": "2024-11-20",
+     "url": "fixture://utility-mainburst.html",
+     "language": "en",
+     "source_type": "official",
+     "supporting_excerpt": "A water main burst in Eastfield on 20 November 2024, and the utility issued a boil notice for 3,400 customers until 23 November 2024.",
+     "fetch_status": "confirmed",
+     "originating_source": "Foo Valley Municipal Utility",
+     "originating_basis": "self",
+     "publisher_canonical": "Foo Valley Municipal Utility"
+    },
+    {
+     "publisher": "Lower Basin Inquirer",
+     "title": "Brown water in Eastfield",
+     "date": "2024-11-21",
+     "url": "fixture://lower-basin-inquirer.html",
+     "language": "en",
+     "source_type": "media",
+     "supporting_excerpt": "Eastfield residents told the Lower Basin Inquirer that the tap water ran brown on 20 November 2024, and reporters saw crews digging at the junction of Mill Road.",
+     "fetch_status": "confirmed",
+     "originating_source": "Lower Basin Inquirer",
+     "originating_basis": "self",
+     "publisher_canonical": "Lower Basin Inquirer"
+    }
+   ],
+   "confidence": "A",
+   "verdict": "confirmed",
+   "verification_note": "Utility and the Inquirer's own reporting are independent origins; the Inquirer gives no figure. The customer count is the utility's only.",
+   "independent_origins": 2
+  },
+  {
+   "category": "spill",
+   "statement": "The Regional Water Authority reported that sampling on 10 February 2025 found solvent discharged from the Millbrook outfall exceeded the permitted limit by a factor of two, and that it issued a compliance order to Ridgeline Chemical.",
+   "date": "2025-02-10",
+   "location": "Millbrook outfall, Upper Basin",
+   "actor": "Ridgeline Chemical",
+   "figures": "Authority: twice the permitted limit",
+   "entities_named": [
+    "Ridgeline Chemical"
+   ],
+   "notes": "The Courier relays the Authority.",
+   "relation": "new",
+   "id": "r2-permit-001",
+   "sources": [
+    {
+     "publisher": "Regional Water Authority",
+     "title": "Compliance bulletin, February 2025",
+     "date": "2025-02-14",
+     "url": "fixture://authority-permit.html",
+     "language": "en",
+     "source_type": "official",
+     "supporting_excerpt": "Sampling on 10 February 2025 found that solvent discharged from the Millbrook outfall exceeded the permitted limit by a factor of two, and the Authority issued a compliance order to Ridgeline Chemical.",
+     "fetch_status": "confirmed",
+     "originating_source": "Regional Water Authority",
+     "originating_basis": "self",
+     "publisher_canonical": "Regional Water Authority"
+    },
+    {
+     "publisher": "Valley Courier",
+     "title": "Authority orders plant to cut discharge",
+     "date": "2025-02-15",
+     "url": "fixture://valley-courier-permit.html",
+     "language": "en",
+     "source_type": "media",
+     "supporting_excerpt": "The Valley Courier reported that, according to the Authority, solvent discharged from the Millbrook outfall exceeded the permitted limit in February 2025.",
+     "fetch_status": "confirmed",
+     "originating_source": "Regional Water Authority",
+     "originating_basis": "verifier",
+     "publisher_canonical": "Valley Courier"
+    }
+   ],
+   "confidence": "B",
+   "verdict": "corrected",
+   "verification_note": "The Courier relays the Authority: one origin.",
+   "independent_origins": 1
+  }
+ ],
+ "summary": "round r2"
+}

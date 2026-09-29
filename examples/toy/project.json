@@ -1,0 +1,90 @@
+{
+  "slug": "toy",
+  "title": "The Foo River basin (synthetic example)",
+  "subtitle": "A toy investigation that exercises every stage of the pipeline. All places, bodies and events are invented.",
+  "topic": "water contamination in the Foo River basin",
+  "question": "What do open sources document about contamination events in the Foo River basin between 1 January 2024 and 31 December 2025?",
+  "charter": "The user asked for a fact-only, footnoted record of contamination events in the (invented) Foo River basin, 2024-2025.",
+  "period": {
+    "start": "2024-01-01",
+    "end": "2025-12-31",
+    "asof": "2025-12-31"
+  },
+  "languages": [
+    "en"
+  ],
+  "actors": {
+    "in_scope": [
+      "Ridgeline Chemical",
+      "Foo Valley Municipal Utility"
+    ],
+    "context_only": [
+      "Regional Water Authority"
+    ],
+    "colours": {
+      "Ridgeline Chemical": "actor-1",
+      "Foo Valley Municipal Utility": "actor-2"
+    }
+  },
+  "categories": [
+    "spill",
+    "fish_kill",
+    "health_impact",
+    "denial_or_counterclaim"
+  ],
+  "high_stakes_categories": [
+    "health_impact"
+  ],
+  "preferred_sources": [
+    "Regional Water Authority",
+    "Regional Health Office",
+    "Basin Watch",
+    "local newspapers"
+  ],
+  "evidence": {
+    "grades": {
+      "A": "Two or more independent credible sources, or a documented investigation by a regulator or major NGO.",
+      "B": "One credible non-partisan source, or a credible local source corroborated by other evidence.",
+      "C": "A single local, partisan or unverified source. Recorded because it may assist further work, not because it is established."
+    },
+    "good_fetch": [
+      "confirmed",
+      "partially_supports"
+    ],
+    "partisan_prefix": "partisan",
+    "social_media": "lead_only"
+  },
+  "protected": {
+    "never_name": [
+      "living detainees or abductees",
+      "minors"
+    ],
+    "name_the_dead_if_source_names": true,
+    "spelling_rule": "Use spellings exactly as a source prints them.",
+    "vocabulary": "descriptive_only",
+    "disclaimer": "Being named is not a finding of responsibility."
+  },
+  "house_style": {
+    "spelling": "UK",
+    "sentences": "short",
+    "attribution": "always",
+    "figures": "per source, never merged"
+  },
+  "budgets": {
+    "agent_cap": 4
+  },
+  "prose_check_ignore": [
+    "1 January 2024 and 31 December 2025"
+  ],
+  "edition": {
+    "file": "edition.json",
+    "record_noun": [
+      "Event",
+      "Events"
+    ],
+    "entity_noun": [
+      "Party",
+      "Parties"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+ "unit": "lower-basin",
+ "claims": {
+  "0": {
+   "verdict": "keep",
+   "grade": "B",
+   "reason": "Operator's own report."
+  },
+  "1": {
+   "verdict": "keep",
+   "grade": "B",
+   "reason": "Official count; no link to the dosing is stated."
+  },
+  "2": {
+   "verdict": "keep",
+   "grade": "C",
+   "reason": "Anonymous forum post, kept as a weak lead."
+  },
+  "3": {
+   "verdict": "drop",
+   "reason": "The excerpt is not on the page (the page says 48 cases, not 300 hospitalised)."
+  }
+ }
+}

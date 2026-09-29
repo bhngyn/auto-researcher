@@ -1,0 +1,244 @@
+{
+ "track": "r1",
+ "claims": [
+  {
+   "category": "spill",
+   "statement": "The Foo Valley Municipal Utility confirmed that on 14 July 2025 the Lower Basin treatment works dosed chlorine at four times the permitted level for roughly three hours.",
+   "date": "2025-07-14",
+   "location": "Lower Basin treatment works",
+   "actor": "Foo Valley Municipal Utility",
+   "figures": "Utility: 4x permitted level, about 3 hours",
+   "entities_named": [
+    "Foo Valley Municipal Utility"
+   ],
+   "notes": "Self-report by the operator.",
+   "relation": "new",
+   "id": "r1-lower-basin-001",
+   "sources": [
+    {
+     "publisher": "Foo Valley Municipal Utility",
+     "title": "Incident report: treatment works, July 2025",
+     "date": "2025-07-20",
+     "url": "fixture://lower-basin-utility.html",
+     "language": "en",
+     "source_type": "official",
+     "supporting_excerpt": "On 14 July 2025 the Lower Basin treatment works dosed chlorine at four times the permitted level for roughly three hours, the utility confirmed.",
+     "fetch_status": "confirmed",
+     "originating_source": "Foo Valley Municipal Utility",
+     "originating_basis": "self",
+     "publisher_canonical": "Foo Valley Municipal Utility"
+    }
+   ],
+   "confidence": "B",
+   "verdict": "confirmed",
+   "verification_note": "Operator's own report.",
+   "independent_origins": 1
+  },
+  {
+   "category": "health_impact",
+   "statement": "The Regional Health Office recorded 48 cases of skin irritation at Riverside Clinic between 14 and 17 July 2025.",
+   "date": "2025-07-14/2025-07-17",
+   "location": "Riverside Clinic, Eastfield, Lower Basin",
+   "actor": "",
+   "figures": "Regional Health Office: 48 cases",
+   "notes": "The office does not link the cluster to the dosing incident.",
+   "relation": "new",
+   "id": "r1-lower-basin-002",
+   "sources": [
+    {
+     "publisher": "Regional Health Office",
+     "title": "Skin irritation cluster, Eastfield",
+     "date": "2025-07-21",
+     "url": "fixture://health-office-cluster.html",
+     "language": "en",
+     "source_type": "official",
+     "supporting_excerpt": "The Regional Health Office recorded 48 cases of skin irritation at Riverside Clinic between 14 and 17 July 2025.",
+     "fetch_status": "confirmed",
+     "originating_source": "Regional Health Office",
+     "originating_basis": "self",
+     "publisher_canonical": "Regional Health Office"
+    }
+   ],
+   "confidence": "B",
+   "verdict": "confirmed",
+   "verification_note": "Official count; no link to the dosing is stated.",
+   "independent_origins": 1
+  },
+  {
+   "category": "spill",
+   "statement": "An anonymous forum user wrote that trucks dump drums into the river every Friday night near Millbrook.",
+   "date": "2025",
+   "location": "Near Millbrook, Upper Basin",
+   "actor": "",
+   "figures": "",
+   "notes": "Anonymous, unverified.",
+   "relation": "new",
+   "id": "r1-lower-basin-003",
+   "sources": [
+    {
+     "publisher": "Basin Talk forum",
+     "title": "Night dumping?",
+     "date": "2025-08-02",
+     "url": "fixture://forum-rumour.html",
+     "language": "en",
+     "source_type": "OSINT",
+     "supporting_excerpt": "A user who did not give a name wrote that trucks dump drums into the river every Friday night near Millbrook.",
+     "fetch_status": "confirmed",
+     "originating_source": "Basin Talk forum",
+     "originating_basis": "self",
+     "publisher_canonical": "Basin Talk forum"
+    }
+   ],
+   "confidence": "C",
+   "verdict": "confirmed",
+   "verification_note": "Anonymous forum post, kept as a weak lead.",
+   "independent_origins": 1
+  },
+  {
+   "category": "health_impact",
+   "statement": "The Regional Health Office said 300 people were hospitalised in Eastfield in July 2025.",
+   "date": "2025-07",
+   "location": "Eastfield, Lower Basin",
+   "actor": "",
+   "figures": "Regional Health Office: 300 hospitalised",
+   "notes": "(A deliberately bad claim: the excerpt is not on the page.)",
+   "relation": "new",
+   "id": "r1-lower-basin-004",
+   "sources": [
+    {
+     "publisher": "",
+     "url": "",
+     "supporting_excerpt": "",
+     "fetch_status": "not_found",
+     "originating_source": "",
+     "originating_basis": "self",
+     "publisher_canonical": ""
+    }
+   ],
+   "confidence": "B",
+   "verdict": "rejected",
+   "verification_note": "The excerpt is not on the page (the page says 48 cases, not 300 hospitalised). Dropped sources: source 0: not_found, no replacement quote.",
+   "independent_origins": 0
+  },
+  {
+   "category": "spill",
+   "statement": "The Valley Courier reported that a tank at the Ridgeline Chemical plant at Millbrook released an estimated 40 cubic metres of solvent into the Foo River on 3 March 2024.",
+   "date": "2024-03-03",
+   "location": "Millbrook, Upper Basin",
+   "actor": "Ridgeline Chemical",
+   "figures": "Valley Courier: about 40 cubic metres",
+   "entities_named": [
+    "Ridgeline Chemical"
+   ],
+   "notes": "The Authority confirms elevated readings, not the volume or the source.",
+   "relation": "new",
+   "id": "r1-upper-basin-001",
+   "sources": [
+    {
+     "publisher": "Valley Courier",
+     "title": "Chemical release at Millbrook plant",
+     "date": "2024-03-04",
+     "url": "fixture://valley-courier-spill.html",
+     "language": "en",
+     "source_type": "media",
+     "supporting_excerpt": "On 3 March 2024 a tank at the Ridgeline Chemical plant at Millbrook released an estimated 40 cubic metres of solvent into the Foo River.",
+     "fetch_status": "confirmed",
+     "originating_source": "Valley Courier",
+     "originating_basis": "self",
+     "publisher_canonical": "Valley Courier"
+    },
+    {
+     "publisher": "Regional Water Authority",
+     "title": "Notice: Millbrook intake, 3 March 2024",
+     "date": "2024-03-04",
+     "url": "fixture://water-authority-notice.html",
+     "language": "en",
+     "source_type": "official",
+     "supporting_excerpt": "The Authority recorded elevated solvent readings at the Millbrook intake on 3 March 2024 and issued a boil notice affecting 12,000 households.",
+     "fetch_status": "confirmed",
+     "originating_source": "Regional Water Authority",
+     "originating_basis": "self",
+     "publisher_canonical": "Regional Water Authority"
+    }
+   ],
+   "confidence": "A",
+   "verdict": "confirmed",
+   "verification_note": "Courier and the Authority are independent origins; the Authority confirms readings, not the volume (noted). The Authority confirms elevated readings and a boil notice; the volume comes from the Courier only.",
+   "independent_origins": 2
+  },
+  {
+   "category": "fish_kill",
+   "statement": "Basin Watch reported that its volunteers counted about 2,300 dead fish along a 9 km stretch of the Foo River below Millbrook on 5 March 2024.",
+   "date": "2024-03-05",
+   "location": "Foo River below Millbrook, Upper Basin",
+   "actor": "",
+   "figures": "Basin Watch: about 2,300 dead fish over 9 km",
+   "notes": "The Courier relays Basin Watch.",
+   "relation": "new",
+   "id": "r1-upper-basin-002",
+   "sources": [
+    {
+     "publisher": "Basin Watch",
+     "title": "Fish kill below Millbrook",
+     "date": "2024-03-06",
+     "url": "fixture://basin-watch-fishkill.html",
+     "language": "en",
+     "source_type": "local_monitor",
+     "supporting_excerpt": "Basin Watch volunteers counted about 2,300 dead fish along a 9 km stretch below Millbrook on 5 March 2024.",
+     "fetch_status": "confirmed",
+     "originating_source": "Basin Watch",
+     "originating_basis": "self",
+     "publisher_canonical": "Basin Watch"
+    },
+    {
+     "publisher": "Valley Courier",
+     "title": "Dead fish along the river",
+     "date": "2024-03-06",
+     "url": "fixture://valley-courier-fishkill.html",
+     "language": "en",
+     "source_type": "media",
+     "supporting_excerpt": "According to Basin Watch, volunteers counted about 2,300 dead fish along a 9 km stretch below Millbrook.",
+     "fetch_status": "confirmed",
+     "originating_source": "Basin Watch",
+     "originating_basis": "verifier",
+     "publisher_canonical": "Valley Courier"
+    }
+   ],
+   "confidence": "B",
+   "verdict": "corrected",
+   "verification_note": "The Courier relays Basin Watch, so one origin, not two.",
+   "independent_origins": 1
+  },
+  {
+   "category": "denial_or_counterclaim",
+   "statement": "Ridgeline Chemical said the release was a fraction of the volume alleged and that no fish kill could be attributed to the plant.",
+   "date": "2024-03-07",
+   "location": "Millbrook, Upper Basin",
+   "actor": "Ridgeline Chemical",
+   "figures": "",
+   "notes": "Party statement.",
+   "relation": "counterclaim",
+   "id": "r1-upper-basin-003",
+   "sources": [
+    {
+     "publisher": "Ridgeline Chemical",
+     "title": "Statement on the Millbrook incident",
+     "date": "2024-03-07",
+     "url": "fixture://ridgeline-statement.html",
+     "language": "en",
+     "source_type": "partisan_company",
+     "supporting_excerpt": "Ridgeline Chemical said the release was a fraction of the volume alleged and that no fish kill could be attributed to the plant.",
+     "fetch_status": "confirmed",
+     "originating_source": "Ridgeline Chemical",
+     "originating_basis": "self",
+     "publisher_canonical": "Ridgeline Chemical"
+    }
+   ],
+   "confidence": "C",
+   "verdict": "confirmed",
+   "verification_note": "Party statement; recorded as a claim by the party.",
+   "independent_origins": 1
+  }
+ ],
+ "summary": "round r1"
+}

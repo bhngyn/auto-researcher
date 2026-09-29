@@ -1,0 +1,550 @@
+{
+ "records": [
+  {
+   "id": "REC-0001",
+   "title": "Solvent release at the Millbrook plant (Millbrook, 3 March 2024)",
+   "kind": "event",
+   "parent": null,
+   "children": [],
+   "related": [
+    "REC-0002"
+   ],
+   "same_as": [],
+   "card": {
+    "chapter": "upper-basin",
+    "anchor": "rec-0001"
+   },
+   "scope": {
+    "actor_group": "Ridgeline Chemical",
+    "actor_line": "Ridgeline Chemical, per the Valley Courier",
+    "attribution": "stated",
+    "in_scope": true
+   },
+   "when": {
+    "start": "2024-03-03",
+    "end": "2024-03-03",
+    "text": "3 March 2024",
+    "precision": "day"
+   },
+   "where": {
+    "text": "Millbrook plant and the Foo River",
+    "region": "Upper Basin",
+    "place": "Millbrook",
+    "lat": 12.4,
+    "lon": 30.2,
+    "precision": "site"
+   },
+   "categories": [
+    {
+     "type": "spill",
+     "label": "Spill or release",
+     "claims": [
+      "r1-upper-basin-001"
+     ]
+    }
+   ],
+   "claims": {
+    "core": [
+     "r1-upper-basin-001"
+    ],
+    "context": []
+   },
+   "links": [
+    {
+     "slug": "ridgeline-chemical",
+     "name": "Ridgeline Chemical",
+     "unit": null,
+     "level": "L1_direct",
+     "grade": "A",
+     "partisan_only": false,
+     "claims": [
+      "r1-upper-basin-001"
+     ]
+    }
+   ],
+   "counterclaims": [
+    {
+     "claim": "r1-upper-basin-003",
+     "text": "Ridgeline Chemical said the release was a fraction of the volume alleged."
+    }
+   ],
+   "victims_named": [],
+   "notes": [],
+   "figures": [
+    {
+     "claim": "r1-upper-basin-001",
+     "grade": "A",
+     "text": "Valley Courier: about 40 cubic metres",
+     "killed_figures": []
+    }
+   ],
+   "evidence": {
+    "claim_grades": {
+     "r1-upper-basin-001": "A",
+     "r1-upper-basin-003": "C"
+    },
+    "best_claim_grade": "A",
+    "card_grade": "A",
+    "distinct_nonpartisan_origins": 2,
+    "nonpartisan_origins": [
+     "Regional Water Authority",
+     "Valley Courier"
+    ],
+    "partisan_origins": []
+   },
+   "weak": false
+  },
+  {
+   "id": "REC-0002",
+   "title": "Fish kill below Millbrook (Foo River, 5 March 2024)",
+   "kind": "event",
+   "parent": null,
+   "children": [],
+   "related": [
+    "REC-0001"
+   ],
+   "same_as": [],
+   "card": {
+    "chapter": "upper-basin",
+    "anchor": "rec-0002"
+   },
+   "scope": {
+    "actor_group": "Not attributed by the source",
+    "actor_line": "Not attributed by the source",
+    "attribution": "not_stated",
+    "in_scope": false
+   },
+   "when": {
+    "start": "2024-03-05",
+    "end": "2024-03-05",
+    "text": "5 March 2024",
+    "precision": "day"
+   },
+   "where": {
+    "text": "Foo River, 9 km below Millbrook",
+    "region": "Upper Basin",
+    "place": "Millbrook",
+    "lat": 12.37,
+    "lon": 30.24,
+    "precision": "near"
+   },
+   "categories": [
+    {
+     "type": "fish_kill",
+     "label": "Fish kill",
+     "claims": [
+      "r1-upper-basin-002"
+     ]
+    }
+   ],
+   "claims": {
+    "core": [
+     "r1-upper-basin-002"
+    ],
+    "context": []
+   },
+   "links": [],
+   "counterclaims": [
+    {
+     "claim": "r1-upper-basin-003",
+     "text": "Ridgeline Chemical said no fish kill could be attributed to the plant."
+    }
+   ],
+   "victims_named": [],
+   "notes": [],
+   "figures": [
+    {
+     "claim": "r1-upper-basin-002",
+     "grade": "B",
+     "text": "Basin Watch: about 2,300 dead fish",
+     "killed_figures": []
+    }
+   ],
+   "evidence": {
+    "claim_grades": {
+     "r1-upper-basin-002": "B",
+     "r1-upper-basin-003": "C"
+    },
+    "best_claim_grade": "B",
+    "card_grade": "B",
+    "distinct_nonpartisan_origins": 1,
+    "nonpartisan_origins": [
+     "Basin Watch"
+    ],
+    "partisan_origins": []
+   },
+   "weak": false
+  },
+  {
+   "id": "REC-0003",
+   "title": "Chlorine overdose at the Lower Basin treatment works (14 July 2025)",
+   "kind": "event",
+   "parent": null,
+   "children": [],
+   "related": [
+    "REC-0004"
+   ],
+   "same_as": [],
+   "card": {
+    "chapter": "lower-basin",
+    "anchor": "rec-0003"
+   },
+   "scope": {
+    "actor_group": "Foo Valley Municipal Utility",
+    "actor_line": "Foo Valley Municipal Utility",
+    "attribution": "stated",
+    "in_scope": true
+   },
+   "when": {
+    "start": "2025-07-14",
+    "end": "2025-07-14",
+    "text": "14 July 2025",
+    "precision": "day"
+   },
+   "where": {
+    "text": "Lower Basin treatment works",
+    "region": "Lower Basin",
+    "place": "Eastfield",
+    "lat": 11.9,
+    "lon": 30.6,
+    "precision": "site"
+   },
+   "categories": [
+    {
+     "type": "spill",
+     "label": "Spill or release",
+     "claims": [
+      "r1-lower-basin-001"
+     ]
+    }
+   ],
+   "claims": {
+    "core": [
+     "r1-lower-basin-001"
+    ],
+    "context": []
+   },
+   "links": [
+    {
+     "slug": "foo-valley-municipal-utility",
+     "name": "Foo Valley Municipal Utility",
+     "unit": null,
+     "level": "L1_direct",
+     "grade": "B",
+     "partisan_only": false,
+     "claims": [
+      "r1-lower-basin-001"
+     ]
+    }
+   ],
+   "counterclaims": [],
+   "victims_named": [],
+   "notes": [],
+   "evidence": {
+    "claim_grades": {
+     "r1-lower-basin-001": "B"
+    },
+    "best_claim_grade": "B",
+    "card_grade": "B",
+    "distinct_nonpartisan_origins": 1,
+    "nonpartisan_origins": [
+     "Foo Valley Municipal Utility"
+    ],
+    "partisan_origins": []
+   },
+   "weak": false
+  },
+  {
+   "id": "REC-0004",
+   "title": "Skin irritation cluster at Riverside Clinic (Eastfield, 14–17 July 2025)",
+   "kind": "event",
+   "parent": null,
+   "children": [],
+   "related": [
+    "REC-0003"
+   ],
+   "same_as": [],
+   "card": {
+    "chapter": "lower-basin",
+    "anchor": "rec-0004"
+   },
+   "scope": {
+    "actor_group": "Not attributed by the source",
+    "actor_line": "Not attributed by the source",
+    "attribution": "not_stated",
+    "in_scope": false
+   },
+   "when": {
+    "start": "2025-07-14",
+    "end": "2025-07-17",
+    "text": "14–17 July 2025",
+    "precision": "day"
+   },
+   "where": {
+    "text": "Riverside Clinic, Eastfield",
+    "region": "Lower Basin",
+    "place": "Eastfield",
+    "lat": 11.91,
+    "lon": 30.61,
+    "precision": "site"
+   },
+   "categories": [
+    {
+     "type": "health_impact",
+     "label": "Health impact",
+     "claims": [
+      "r1-lower-basin-002"
+     ]
+    }
+   ],
+   "claims": {
+    "core": [
+     "r1-lower-basin-002"
+    ],
+    "context": []
+   },
+   "links": [],
+   "counterclaims": [],
+   "victims_named": [],
+   "notes": [],
+   "figures": [
+    {
+     "claim": "r1-lower-basin-002",
+     "grade": "B",
+     "text": "Regional Health Office: 48 cases",
+     "killed_figures": []
+    }
+   ],
+   "evidence": {
+    "claim_grades": {
+     "r1-lower-basin-002": "B"
+    },
+    "best_claim_grade": "B",
+    "card_grade": "B",
+    "distinct_nonpartisan_origins": 1,
+    "nonpartisan_origins": [
+     "Regional Health Office"
+    ],
+    "partisan_origins": []
+   },
+   "weak": false
+  },
+  {
+   "id": "REC-0005",
+   "title": "Discharge above the permitted limit at the Millbrook outfall (10 February 2025)",
+   "kind": "event",
+   "parent": null,
+   "children": [],
+   "related": [],
+   "same_as": [],
+   "card": {
+    "chapter": "upper-basin",
+    "anchor": "rec-0005"
+   },
+   "scope": {
+    "actor_group": "Ridgeline Chemical",
+    "actor_line": "Ridgeline Chemical, per the Regional Water Authority",
+    "attribution": "stated",
+    "in_scope": true
+   },
+   "when": {
+    "start": "2025-02-10",
+    "end": "2025-02-10",
+    "text": "10 February 2025",
+    "precision": "day"
+   },
+   "where": {
+    "text": "Millbrook outfall",
+    "region": "Upper Basin",
+    "place": "Millbrook",
+    "lat": 12.41,
+    "lon": 30.21,
+    "precision": "site"
+   },
+   "categories": [
+    {
+     "type": "spill",
+     "label": "Spill or release",
+     "claims": [
+      "r2-permit-001"
+     ]
+    }
+   ],
+   "claims": {
+    "core": [
+     "r2-permit-001"
+    ],
+    "context": []
+   },
+   "links": [
+    {
+     "slug": "ridgeline-chemical",
+     "name": "Ridgeline Chemical",
+     "unit": null,
+     "level": "L1_direct",
+     "grade": "B",
+     "partisan_only": false,
+     "claims": [
+      "r2-permit-001"
+     ]
+    }
+   ],
+   "counterclaims": [],
+   "victims_named": [],
+   "notes": [],
+   "evidence": {
+    "claim_grades": {
+     "r2-permit-001": "B"
+    },
+    "best_claim_grade": "B",
+    "card_grade": "B",
+    "distinct_nonpartisan_origins": 1,
+    "nonpartisan_origins": [
+     "Regional Water Authority"
+    ],
+    "partisan_origins": []
+   },
+   "weak": false
+  },
+  {
+   "id": "REC-0006",
+   "title": "Water main burst in Eastfield (20 November 2024)",
+   "kind": "event",
+   "parent": null,
+   "children": [],
+   "related": [],
+   "same_as": [],
+   "card": {
+    "chapter": "lower-basin",
+    "anchor": "rec-0006"
+   },
+   "scope": {
+    "actor_group": "Foo Valley Municipal Utility",
+    "actor_line": "Foo Valley Municipal Utility",
+    "attribution": "stated",
+    "in_scope": true
+   },
+   "when": {
+    "start": "2024-11-20",
+    "end": "2024-11-23",
+    "text": "20–23 November 2024",
+    "precision": "day"
+   },
+   "where": {
+    "text": "Eastfield, junction of Mill Road",
+    "region": "Lower Basin",
+    "place": "Eastfield",
+    "lat": 11.92,
+    "lon": 30.59,
+    "precision": "near"
+   },
+   "categories": [
+    {
+     "type": "spill",
+     "label": "Spill or release",
+     "claims": [
+      "r2-mainburst-001"
+     ]
+    }
+   ],
+   "claims": {
+    "core": [
+     "r2-mainburst-001"
+    ],
+    "context": []
+   },
+   "links": [
+    {
+     "slug": "foo-valley-municipal-utility",
+     "name": "Foo Valley Municipal Utility",
+     "unit": null,
+     "level": "L1_direct",
+     "grade": "A",
+     "partisan_only": false,
+     "claims": [
+      "r2-mainburst-001"
+     ]
+    }
+   ],
+   "counterclaims": [],
+   "victims_named": [],
+   "notes": [],
+   "evidence": {
+    "claim_grades": {
+     "r2-mainburst-001": "A"
+    },
+    "best_claim_grade": "A",
+    "card_grade": "A",
+    "distinct_nonpartisan_origins": 2,
+    "nonpartisan_origins": [
+     "Foo Valley Municipal Utility",
+     "Lower Basin Inquirer"
+    ],
+    "partisan_origins": []
+   },
+   "weak": false
+  },
+  {
+   "id": "REC-0007",
+   "title": "Alleged night dumping near Millbrook (2025)",
+   "kind": "event",
+   "parent": null,
+   "children": [],
+   "related": [],
+   "same_as": [],
+   "card": null,
+   "scope": {
+    "actor_group": "Not attributed by the source",
+    "actor_line": "Not attributed by the source",
+    "attribution": "not_stated",
+    "in_scope": false
+   },
+   "when": {
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "text": "2025 (undated)",
+    "precision": "year"
+   },
+   "where": {
+    "text": "Near Millbrook",
+    "region": "Upper Basin",
+    "place": "Millbrook",
+    "lat": null,
+    "lon": null,
+    "precision": "none"
+   },
+   "categories": [
+    {
+     "type": "spill",
+     "label": "Spill or release",
+     "claims": [
+      "r1-lower-basin-003"
+     ]
+    }
+   ],
+   "claims": {
+    "core": [
+     "r1-lower-basin-003"
+    ],
+    "context": []
+   },
+   "links": [],
+   "counterclaims": [],
+   "victims_named": [],
+   "notes": [],
+   "evidence": {
+    "claim_grades": {
+     "r1-lower-basin-003": "C"
+    },
+    "best_claim_grade": "C",
+    "card_grade": "C",
+    "distinct_nonpartisan_origins": 1,
+    "nonpartisan_origins": [
+     "Basin Talk forum"
+    ],
+    "partisan_origins": []
+   },
+   "weak": true
+  }
+ ]
+}

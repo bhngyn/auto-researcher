@@ -1,0 +1,10 @@
+{"findings": [{"id": "f1", "a": "Two of the four in-scope events are attributed to Ridgeline Chemical; both are at Millbrook.", "block": "q1"}],
+ "blocks": [{
+   "id": "q1", "q": "Where do the in-scope events cluster?",
+   "a": "{n_region_upper_basin} of {n_scope} in-scope events are in the Upper Basin.",
+   "viz": {"type": "bars", "title": "In-scope events by basin", "caption": "One bar is one basin. The length is the number of in-scope events. Grade shows the lowest grade of any event counted. Click a bar to open the events.",
+           "rows": [{"label": "Upper Basin", "value": "{n_region_upper_basin}", "grade": "B"}, {"label": "Lower Basin", "value": "{n_region_lower_basin}", "grade": "B"}]},
+   "care": ["Four events is far too few to show a pattern. This block exists to show the layout."],
+   "detail": "<p>The Regional Water Authority reported that discharge from the Millbrook outfall exceeded the permitted limit in February 2025.{{c:r2-permit-001}} The Valley Courier reported the release of March 2024.{{c:r1-upper-basin-001}}</p>",
+   "tables": [{"title": "Events by basin", "cols": ["Basin", "In scope"], "rows": [["Upper Basin", "{n_region_upper_basin}"], ["Lower Basin", "{n_region_lower_basin}"]]}]
+ }]}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>/*__TITLE__*/</title>
+<meta name="description" content="/*__DESC__*/">
+<meta name="theme-color" content="#f6f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16140f" media="(prefers-color-scheme: dark)">
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<noscript><p style="font:16px/1.5 Georgia,serif;max-width:40rem;margin:4rem auto;padding:0 16px">This edition is an interactive document and needs JavaScript to run.</p></noscript>
+<header class="top">
+  <button class="iconbtn menubtn" id="menu" aria-label="Open the contents menu" aria-controls="rail" aria-expanded="false"><svg viewBox="0 0 18 18" aria-hidden="true"><path d="M2 4.5h14M2 9h14M2 13.5h14" stroke="currentColor" stroke-width="1.5"/></svg></button>
+  <a class="brand" href="#/"><b id="brand-t"></b><span id="brand-s"></span></a>
+  <span class="grow"></span>
+  <button class="searchbtn" id="searchbtn" aria-label="Search" aria-haspopup="dialog"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5"/></svg><span class="stxt">Search</span><kbd>/</kbd></button>
+  <button class="txtbtn" id="keybtn" aria-expanded="false" aria-controls="keypop">Key</button>
+  <button class="iconbtn" id="theme" aria-label="Switch between light and dark"><svg viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="6.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M9 2.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+</header>
+<div class="keypop" id="keypop" role="region" aria-label="Key to the marks" hidden></div>
+<nav class="rail" id="rail" aria-label="Contents"></nav>
+<div class="scrim" id="scrim"></div>
+<main><div id="view" class="view" tabindex="-1"></div></main>
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="Evidence"><header><span class="t">Evidence</span><span class="grow"></span><button class="iconbtn close" aria-label="Close the evidence drawer"><svg viewBox="0 0 18 18" aria-hidden="true"><path d="M4 4l10 10M14 4L4 14" stroke="currentColor" stroke-width="1.6"/></svg></button></header><div class="body"></div></aside>
+<div class="tip" id="tip" role="tooltip"></div>
+<div class="pal-bg" id="pal-bg"></div>
+<div class="pal" id="pal" role="dialog" aria-modal="true" aria-label="Search"><input id="pal-in" type="search" autocomplete="off" placeholder="Search…" aria-label="Search" aria-controls="pal-res"><div class="res" id="pal-res" role="listbox"></div></div>
+<script type="application/json" id="data">/*__DATA__*/</script>
+<script>/*__JS__*/</script>
+</body>
+</html>

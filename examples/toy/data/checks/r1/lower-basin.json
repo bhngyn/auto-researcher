@@ -1,0 +1,33 @@
+{
+ "unit": "lower-basin",
+ "quotes": [
+  {
+   "claim": 0,
+   "source": 0,
+   "url": "fixture://lower-basin-utility.html",
+   "status": "exact"
+  },
+  {
+   "claim": 1,
+   "source": 0,
+   "url": "fixture://health-office-cluster.html",
+   "status": "exact"
+  },
+  {
+   "claim": 2,
+   "source": 0,
+   "url": "fixture://forum-rumour.html",
+   "status": "exact"
+  },
+  {
+   "claim": 3,
+   "source": 0,
+   "url": "fixture://health-office-cluster.html",
+   "status": "not_found"
+  }
+ ],
+ "flags": [
+  "claim 0: figures ['3', '4'] are in the statement but in no excerpt"
+ ],
+ "errors": []
+}

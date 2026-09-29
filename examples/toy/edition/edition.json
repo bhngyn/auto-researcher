@@ -1,0 +1,28 @@
+{
+  "brand": "Foo River basin",
+  "tagline": "Synthetic example edition, 2024–2025",
+  "cover_dek": "A toy evidence edition that exercises every stage of the pipeline. Everything in it is invented.",
+  "content_warning": "This is a synthetic example. Nothing in it is real.",
+  "record_noun": ["Event", "Events"],
+  "entity_noun": ["Party", "Parties"],
+  "actors": [
+    {"id": "Ridgeline Chemical", "label": "Ridgeline Chemical", "cls": "a1"},
+    {"id": "Foo Valley Municipal Utility", "label": "Municipal utility", "cls": "a2"},
+    {"id": "Not attributed by the source", "label": "Not attributed", "cls": "grey"}
+  ],
+  "facets": [{"key": "region", "label": "Basin"}, {"key": "actor", "label": "Party"}, {"key": "category", "label": "Type"}, {"key": "grade", "label": "Grade"}],
+  "timeline": {"row": "place", "group": "region"},
+  "regions": ["Upper Basin", "Lower Basin"],
+  "chapters": [
+    {"id": "summary", "title": "Summary of findings", "part": "Overview", "kind": "summary"},
+    {"id": "context", "title": "Context: the Foo River basin", "part": "Background", "kind": "narrative"},
+    {"id": "upper-basin", "title": "Upper Basin", "part": "By basin", "kind": "narrative", "region": "Upper Basin"},
+    {"id": "lower-basin", "title": "Lower Basin", "part": "By basin", "kind": "narrative", "region": "Lower Basin"}
+  ],
+  "cover_numbers": [
+    {"label": "events in scope", "value": "records_in_scope", "href": "#/records"},
+    {"label": "claims", "value": "claims", "href": "#/evidence"},
+    {"label": "parties named", "value": "entities", "href": "#/entities"},
+    {"label": "distinct sources", "value": "sources", "href": "#/sources"}
+  ]
+}

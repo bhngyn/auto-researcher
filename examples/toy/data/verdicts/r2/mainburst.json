@@ -1,0 +1,11 @@
+{
+ "unit": "mainburst",
+ "claims": {
+  "0": {
+   "verdict": "keep",
+   "grade": "A",
+   "reason": "Utility and the Inquirer's own reporting are independent origins; the Inquirer gives no figure.",
+   "note": "The customer count is the utility's only."
+  }
+ }
+}

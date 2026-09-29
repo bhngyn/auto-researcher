@@ -1,0 +1,28 @@
+[
+ {
+  "term": "Boil notice",
+  "native": "",
+  "variants": [],
+  "type": "term",
+  "def": "An instruction to boil tap water before drinking.",
+  "slug": null
+ },
+ {
+  "term": "Outfall",
+  "native": "",
+  "variants": [
+   "discharge point"
+  ],
+  "type": "term",
+  "def": "The point where treated or untreated water leaves a plant.",
+  "slug": null
+ },
+ {
+  "term": "Ridgeline Chemical",
+  "native": "",
+  "variants": [],
+  "type": "org",
+  "def": "Operator of the Millbrook plant.",
+  "slug": "ridgeline-chemical"
+ }
+]

@@ -1,0 +1,13 @@
+{
+ "unit": "permit",
+ "claims": {
+  "0": {
+   "verdict": "correct",
+   "grade": "B",
+   "reason": "The Courier relays the Authority: one origin.",
+   "originating_source": {
+    "1": "Regional Water Authority"
+   }
+  }
+ }
+}

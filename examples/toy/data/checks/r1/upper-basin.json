@@ -1,0 +1,37 @@
+{
+ "unit": "upper-basin",
+ "quotes": [
+  {
+   "claim": 0,
+   "source": 0,
+   "url": "fixture://valley-courier-spill.html",
+   "status": "exact"
+  },
+  {
+   "claim": 0,
+   "source": 1,
+   "url": "fixture://water-authority-notice.html",
+   "status": "exact"
+  },
+  {
+   "claim": 1,
+   "source": 0,
+   "url": "fixture://basin-watch-fishkill.html",
+   "status": "exact"
+  },
+  {
+   "claim": 1,
+   "source": 1,
+   "url": "fixture://valley-courier-fishkill.html",
+   "status": "exact"
+  },
+  {
+   "claim": 2,
+   "source": 0,
+   "url": "fixture://ridgeline-statement.html",
+   "status": "exact"
+  }
+ ],
+ "flags": [],
+ "errors": []
+}

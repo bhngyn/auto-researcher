@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "claim.schema.json",
+  "title": "Claim",
+  "description": "One source-backed statement about one thing. The only unit of evidence. Files in data/verified/ are {track, summary, claims:[Claim…]}. Domain fields (for example a perpetrator or a casualty line) go in `extra`; the scripts only rely on the fields below.",
+  "type": "object",
+  "required": ["id", "statement", "sources", "confidence"],
+  "properties": {
+    "id": {"type": "string", "description": "Stable forever. <round>-<unit>-NNN. Never reused, even if the claim is rejected."},
+    "category": {"type": "string", "description": "One of project.json → categories (snake_case)."},
+    "statement": {"type": "string", "description": "One or two sentences, fully attributed ('X reported that…'). Contains nothing the excerpts do not say."},
+    "date": {"type": "string", "description": "YYYY-MM-DD, YYYY-MM-DD/YYYY-MM-DD, YYYY-MM or YYYY. Add '(reported YYYY-MM-DD)' when only the report date is known."},
+    "location": {"type": "string", "description": "Place as the source gives it, plus admin area."},
+    "actor": {"type": "string", "description": "The party the source attributes it to, as the source names it. Never inferred."},
+    "figures": {"type": "string", "description": "Per-source quantities, e.g. 'Monitor A: 7 killed incl. 2 children; Monitor B: 9'. Never merged."},
+    "entities_named": {"type": "array", "items": {"type": "string"}, "description": "People, units or organisations named, exactly as printed."},
+    "victims_named": {
+      "type": "array",
+      "description": "Only where project.json allows naming, and only people with status 'killed' by default.",
+      "items": {"type": "object", "required": ["name", "status"], "properties": {
+        "name": {"type": "string"}, "status": {"type": "string"}, "latin": {"type": ["string", "null"]}, "native": {"type": ["string", "null"]}}}
+    },
+    "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/source"}},
+    "confidence": {"enum": ["A", "B", "C"], "description": "Grade. See GRADES.md. Computed from independent origins, not from outlet count."},
+    "confidence_original": {"enum": ["A", "B", "C"], "description": "Set the first time a grade changes; never overwritten."},
+    "independent_origins": {"type": "integer", "description": "Written by normalize_sources.py: distinct originating sources among usable sources."},
+    "notes": {"type": "string", "description": "Anything a reader must know: conflicts, relays, doubts. Shown in the evidence drawer."},
+    "osint_status": {"type": "string", "description": "For social/OSINT material: how it was verified (archived copy, geolocated by X, unverified)."},
+    "verdict": {"enum": ["confirmed", "corrected", "rejected"], "description": "Set by promote.py. 'rejected' claims stay in the store, are never cited, never shown."},
+    "verification_note": {"type": "string", "description": "What the verifier checked and changed, cumulative and dated."},
+    "secondpass": {"type": "object", "properties": {"decision": {"enum": ["keep", "amend", "downgrade", "reject"]}, "reason": {"type": "string"}}},
+    "correction_log": {"type": "array", "items": {"type": "object", "properties": {
+      "date": {"type": "string"}, "field": {"type": "string"}, "from": {}, "to": {}, "reason": {"type": "string"}, "approved_by": {"type": "string"}}}},
+    "extra": {"type": "object", "description": "Domain-specific fields the project defines. Ignored by the generic scripts."}
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["publisher", "url", "supporting_excerpt"],
+      "properties": {
+        "publisher": {"type": "string"},
+        "title": {"type": "string"},
+        "title_en": {"type": "string", "description": "Only if the title is not in English."},
+        "date": {"type": "string"},
+        "url": {"type": "string", "description": "A URL the agent actually opened, not a search snippet."},
+        "archive_url": {"type": "string", "description": "Web-archive copy when the original blocks fetchers."},
+        "language": {"type": "string"},
+        "source_type": {"type": "string", "description": "media | local_monitor | UN | NGO | official | OSINT | sanctions_notice | court | partisan_<party>. Anything starting 'partisan' counts as partisan."},
+        "supporting_excerpt": {"type": "string", "description": "VERBATIM text copied from the page, in its original language, 10–60 words. Must support every fact this source is cited for."},
+        "excerpt_en": {"type": "string", "description": "Translation, if the excerpt is not English."},
+        "fetch_status": {"enum": ["confirmed", "partially_supports", "reviewer_confirmed", "snippet_only", "unfetchable", "not_found"], "description": "Only confirmed, partially_supports and reviewer_confirmed (if the project allows it) count as usable."},
+        "publisher_canonical": {"type": "string", "description": "Written by normalize_sources.py."},
+        "originating_source": {"type": "string", "description": "Who first reported it, if this outlet relays someone else. Written or corrected by normalize_sources.py."},
+        "originating_basis": {"enum": ["self", "publisher_note", "excerpt_attribution", "ambiguous"]}
+      }
+    }
+  }
+}

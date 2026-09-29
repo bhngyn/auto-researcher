@@ -1,0 +1,43 @@
+{
+  "slug": "example",
+  "title": "Water contamination in the Foo River basin",
+  "subtitle": "Evidence edition, 2022–2026",
+  "topic": "water contamination and its health effects in the Foo River basin",
+  "question": "What do open sources document about contamination events in the Foo River basin between 1 January 2022 and 30 June 2026?",
+  "period": {"start": "2022-01-01", "end": "2026-06-30", "asof": "2026-06-30"},
+  "languages": ["en", "es"],
+  "actors": {
+    "in_scope": ["Company A", "Municipal utility B"],
+    "context_only": ["Regulator C"],
+    "colours": {"Company A": "actor-1", "Municipal utility B": "actor-2", "Not attributed by the source": "grey"}
+  },
+  "categories": ["spill", "fish_kill", "health_impact", "regulatory_action", "denial_or_counterclaim"],
+  "high_stakes_categories": ["health_impact"],
+  "preferred_sources": ["Regulator C reports", "national water authority", "peer-reviewed studies", "local newspapers", "NGO monitors"],
+  "evidence": {
+    "grades": {
+      "A": "Two or more independent credible sources, or a documented investigation by a regulator or major NGO.",
+      "B": "One credible non-partisan source, or a credible local source corroborated by other evidence.",
+      "C": "A single local, partisan or unverified source. Recorded because it may assist further work, not because it is established."
+    },
+    "good_fetch": ["confirmed", "partially_supports"],
+    "single_origin_documented_is_A": ["Regulator C", "national water authority"],
+    "partisan_prefix": "partisan",
+    "social_media": "lead_only"
+  },
+  "protected": {
+    "never_name": ["survivors of sexual violence", "survivors of torture", "living detainees or abductees", "minors"],
+    "name_the_dead_if_source_names": true,
+    "spelling_rule": "Use Latin spellings exactly as a source prints them. Never coin a transliteration.",
+    "vocabulary": "descriptive_only",
+    "disclaimer": "Being named is not a finding of individual responsibility."
+  },
+  "house_style": {"spelling": "UK", "sentences": "short", "attribution": "always", "figures": "per source, never merged"},
+  "budgets": {"agent_cap": 4, "web_search_budget_note": "shared by all subagents in a session", "stop_round_when_yield_below": 0.1},
+  "prose_check_ignore": [],
+  "edition": {
+    "file": "edition.json",
+    "record_noun": ["Event", "Events"],
+    "entity_noun": ["Party", "Parties"]
+  }
+}

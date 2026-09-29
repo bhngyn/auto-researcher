@@ -1,0 +1,47 @@
+{
+ "unit": "mainburst",
+ "searches": [
+  {
+   "q": "Eastfield main burst",
+   "lang": "en",
+   "useful": true
+  }
+ ],
+ "claims": [
+  {
+   "relation": "new",
+   "category": "spill",
+   "statement": "The Foo Valley Municipal Utility said a water main burst in Eastfield on 20 November 2024 and that it issued a boil notice for 3,400 customers until 23 November 2024.",
+   "date": "2024-11-20",
+   "location": "Eastfield, Lower Basin",
+   "actor": "Foo Valley Municipal Utility",
+   "figures": "Utility: 3,400 customers",
+   "entities_named": [
+    "Foo Valley Municipal Utility"
+   ],
+   "sources": [
+    {
+     "publisher": "Foo Valley Municipal Utility",
+     "title": "Service notice: main burst, Eastfield",
+     "date": "2024-11-20",
+     "url": "fixture://utility-mainburst.html",
+     "language": "en",
+     "source_type": "official",
+     "supporting_excerpt": "A water main burst in Eastfield on 20 November 2024, and the utility issued a boil notice for 3,400 customers until 23 November 2024."
+    },
+    {
+     "publisher": "Lower Basin Inquirer",
+     "title": "Brown water in Eastfield",
+     "date": "2024-11-21",
+     "url": "fixture://lower-basin-inquirer.html",
+     "language": "en",
+     "source_type": "media",
+     "supporting_excerpt": "Eastfield residents told the Lower Basin Inquirer that the tap water ran brown on 20 November 2024, and reporters saw crews digging at the junction of Mill Road."
+    }
+   ],
+   "proposed_grade": "A",
+   "notes": "The Inquirer reports independently on the event; it gives no figure."
+  }
+ ],
+ "gaps": []
+}

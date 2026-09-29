@@ -1,0 +1,118 @@
+{
+ "unit": "upper-basin",
+ "searches": [
+  {
+   "q": "Millbrook solvent spill",
+   "lang": "en",
+   "useful": true
+  },
+  {
+   "q": "Foo River fish kill",
+   "lang": "en",
+   "useful": true
+  }
+ ],
+ "claims": [
+  {
+   "relation": "new",
+   "category": "spill",
+   "statement": "The Valley Courier reported that a tank at the Ridgeline Chemical plant at Millbrook released an estimated 40 cubic metres of solvent into the Foo River on 3 March 2024.",
+   "date": "2024-03-03",
+   "location": "Millbrook, Upper Basin",
+   "actor": "Ridgeline Chemical",
+   "figures": "Valley Courier: about 40 cubic metres",
+   "entities_named": [
+    "Ridgeline Chemical"
+   ],
+   "sources": [
+    {
+     "publisher": "Valley Courier",
+     "title": "Chemical release at Millbrook plant",
+     "date": "2024-03-04",
+     "url": "fixture://valley-courier-spill.html",
+     "language": "en",
+     "source_type": "media",
+     "supporting_excerpt": "On 3 March 2024 a tank at the Ridgeline Chemical plant at Millbrook released an estimated 40 cubic metres of solvent into the Foo River."
+    },
+    {
+     "publisher": "Regional Water Authority",
+     "title": "Notice: Millbrook intake, 3 March 2024",
+     "date": "2024-03-04",
+     "url": "fixture://water-authority-notice.html",
+     "language": "en",
+     "source_type": "official",
+     "supporting_excerpt": "The Authority recorded elevated solvent readings at the Millbrook intake on 3 March 2024 and issued a boil notice affecting 12,000 households."
+    }
+   ],
+   "proposed_grade": "A",
+   "notes": "The Authority confirms elevated readings, not the volume or the source."
+  },
+  {
+   "relation": "new",
+   "category": "fish_kill",
+   "statement": "Basin Watch reported that its volunteers counted about 2,300 dead fish along a 9 km stretch of the Foo River below Millbrook on 5 March 2024.",
+   "date": "2024-03-05",
+   "location": "Foo River below Millbrook, Upper Basin",
+   "actor": "",
+   "figures": "Basin Watch: about 2,300 dead fish over 9 km",
+   "sources": [
+    {
+     "publisher": "Basin Watch",
+     "title": "Fish kill below Millbrook",
+     "date": "2024-03-06",
+     "url": "fixture://basin-watch-fishkill.html",
+     "language": "en",
+     "source_type": "local_monitor",
+     "supporting_excerpt": "Basin Watch volunteers counted about 2,300 dead fish along a 9 km stretch below Millbrook on 5 March 2024."
+    },
+    {
+     "publisher": "Valley Courier",
+     "title": "Dead fish along the river",
+     "date": "2024-03-06",
+     "url": "fixture://valley-courier-fishkill.html",
+     "language": "en",
+     "source_type": "media",
+     "supporting_excerpt": "According to Basin Watch, volunteers counted about 2,300 dead fish along a 9 km stretch below Millbrook."
+    }
+   ],
+   "proposed_grade": "A",
+   "notes": "The Courier relays Basin Watch."
+  },
+  {
+   "relation": "counterclaim",
+   "category": "denial_or_counterclaim",
+   "statement": "Ridgeline Chemical said the release was a fraction of the volume alleged and that no fish kill could be attributed to the plant.",
+   "date": "2024-03-07",
+   "location": "Millbrook, Upper Basin",
+   "actor": "Ridgeline Chemical",
+   "figures": "",
+   "sources": [
+    {
+     "publisher": "Ridgeline Chemical",
+     "title": "Statement on the Millbrook incident",
+     "date": "2024-03-07",
+     "url": "fixture://ridgeline-statement.html",
+     "language": "en",
+     "source_type": "partisan_company",
+     "supporting_excerpt": "Ridgeline Chemical said the release was a fraction of the volume alleged and that no fish kill could be attributed to the plant."
+    }
+   ],
+   "proposed_grade": "B",
+   "notes": "Party statement."
+  }
+ ],
+ "gaps": [
+  {
+   "field": "independent_corroboration",
+   "status": "found",
+   "searches": [
+    "Millbrook solvent spill"
+   ]
+  },
+  {
+   "field": "figures",
+   "status": "not_researched",
+   "searches": []
+  }
+ ]
+}
